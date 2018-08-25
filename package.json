@@ -1,5 +1,5 @@
 {
-  "name": "add-delete-edit",
+  "name": "add-delete-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
