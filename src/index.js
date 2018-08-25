@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import registerServiceWorker from './registerServiceWorker'
 // Modest Grid linked via public/index.html
 import './css/reset.css'
-import './css/splash.css'
+import './css/style.css'
 import App from './App'
 
 // main ("ROOT") component 
