@@ -8,12 +8,20 @@ class App extends React.Component{
    {id: 2, content: 'administer repo boundary'}
   ]
  }
+ deleteAde = (id) => {
+   const ade = this.state.ade.filter(item => {
+    return item.id !== id
+   })
+   this.setState({
+    ade
+   })
+ }
  render(){
   return(
-   <React.Fragment>
+   <div className="wrapper">
       <h1>Add, delete, edit</h1>
-      <Ade ade={this.state.ade} />
-   </React.Fragment>
+      <Ade ade={this.state.ade} deleteAde={this.deleteAde} />
+   </div>
   )
  }
 }
