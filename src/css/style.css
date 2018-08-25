@@ -9,10 +9,15 @@ h1{
  font-size: 7.2vw;
  margin-bottom: 10px;
 }
+form{
+ padding: 10px;
+}
+p{
+ color: #a7a7a7;
+}
 input {
  margin-right: 10px;
  margin-bottom: 10px;
- text-align: center;
  box-shadow: none;
 }
 button{
@@ -22,14 +27,13 @@ button{
 input, button{
  font-size: 1.4rem;
  letter-spacing: 1px;
- border: 1px solid var(--blue);
+ border:0;
+ border-bottom: 1px solid var(--blue);
  outline: 0;
- border-radius: 6px;
- height: 60px;
- width: 220px
 }
 ul, li, p{
  font-size: 20px;
  padding: 5px;
+ margin-right: 5px;
  cursor: pointer;
 }
